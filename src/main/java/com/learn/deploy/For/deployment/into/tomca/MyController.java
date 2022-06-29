@@ -12,4 +12,9 @@ public class MyController {
 		return "Home page";
 	}
 	
+	@GetMapping("/about")
+	public String about() {
+		return "About page";
+	}
+	
 }
